@@ -10,9 +10,9 @@ from sklearn.decomposition import PCA
 from scipy.spatial.transform import Rotation as R
 
 # ================== settings ==================
-RAW_DIR     = "/home/yyang/PycharmProjects/Railway_Obstacle_Detection/Track Region Generation/hard_1/input"
-PLANE_DIR   = "/home/yyang/PycharmProjects/Railway_Obstacle_Detection/Track Region Generation/hard_1/plane"
-ALIGNED_DIR = "/home/yyang/PycharmProjects/Railway_Obstacle_Detection/Track Region Generation/hard_1/align"
+RAW_DIR     = "./input"
+PLANE_DIR   = "./plane"
+ALIGNED_DIR = "./align"
 CROP_DIR    = ALIGNED_DIR
 
 LABEL_FIELD = "pred"
@@ -193,3 +193,4 @@ def main():
 
 if __name__=="__main__":
     main()
+
